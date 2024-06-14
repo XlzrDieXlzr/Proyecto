@@ -1,0 +1,5 @@
+1 npm create vite@latest .
+2 npm install react-router-dom
+3 npm install react-bootstrap bootstrap
+4 borrar app.css y index.css
+5 crear las carpetas pages y components en src
