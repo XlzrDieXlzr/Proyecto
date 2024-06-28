@@ -8,9 +8,11 @@ import Movil from "./pages/Movil"
 import Laptop from "./pages/Laptop"
 import Categorias from "./pages/Categorias"
 import Busquedas from "./pages/Busquedas"
+import Carrito from './contexts/Carrito'
 
 const App = () => {
   return (
+    <Carrito>
     <BrowserRouter>
     <Header/>
     <Routes>
@@ -25,6 +27,7 @@ const App = () => {
     </Routes>
     <Footer/>
     </BrowserRouter>
+    </Carrito>
   )
 }
 

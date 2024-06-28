@@ -30,7 +30,7 @@ const Tienda = () => {
             <Card key={productos.id} producto={productos}/>
         ))}
         </div>
-        <div className="d-flex justify-content-evenly align-content-center  text-black mb-3 p-2 alert alert-dark" data-bs-theme="dark">
+        <div className="d-flex justify-content-evenly align-content-center  bg-warning mb-3 p-2 alert alert-dark" data-bs-theme="dark">
         <p className="lead m-0 text-light">Pagina {Math.floor(skip/10) + 1} de {Math.ceil(total/10)}</p>
         <nav className="">
   <ul className="pagination m-0">
